@@ -1,14 +1,10 @@
 {
   "name": "jarviszone-proxy",
   "version": "1.0.0",
-  "description": "Backend proxy for JarvisZone — keeps the Claude API key secure",
+  "description": "Jarvis proxy - pure Node, no dependencies",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
   },
   "engines": {
     "node": ">=18"
