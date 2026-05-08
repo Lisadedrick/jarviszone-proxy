@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: ['https://jarviszone.com', 'https://www.jarviszone.com'] }));
+app.use(cors());
 
 // ── Claude chat endpoint ──────────────────────────
 app.post('/chat', async (req, res) => {
